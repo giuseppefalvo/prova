@@ -14,7 +14,7 @@ class BorrowerNameTest {
     @Test
     public void getFullName() {
         borrowerName.setFirstName("John");
-        borrowerName.setLastName("Doe");
+        borrowerName.setLastName("Dooe");
         assertEquals("John Doe", borrowerName.getFullName());
     }
 
